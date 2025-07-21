@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#667eea" />
+  <title>Kingston's Coding Camp - Master Programming with the Code Wizard</title>
+
+  <!-- Bulma CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- AOS Animation Library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="justcodebruhFavicon/favicon.ico" type="image/x-icon">  
+
+</head>
+
+<body>
+  <!-- Enhanced Navigation -->
+  <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item has-text-weight-bold is-size-4" href="#">
+        <i class="fas fa-code mr-2"></i>
+        Kingston's Coding Camp
+      </a>
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navbarMenu" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="#about">About Kingston</a>
+        <a class="navbar-item" href="#courses">Courses</a>
+        <a class="navbar-item" href="#skills">Skills</a>
+        <a class="navbar-item" href="#testimonials">Success Stories</a>
+        <a class="navbar-item" href="#signup">Enroll Now</a>
+        <a class="navbar-item" href="#contact">Contact</a>
+        <button id="darkModeToggle" class="button is-small ml-2">
+          <i class="fas fa-moon"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Epic Hero Section -->
+  <section class="hero is-fullheight gradient-bg has-text-centered">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title is-1 has-text-white" data-aos="fade-up">
+          Welcome to Kingston's Coding Camp!
+        </h1>
+        <p class="subtitle is-3 has-text-white" data-aos="fade-up" data-aos-delay="100">
+          JustCodeBruh
+        </p>
+        <p class="is-size-5 has-text-white mb-6" data-aos="fade-up" data-aos-delay="200">
+          Learn from the legendary Kingmode - the Code Wizard who transforms beginners into programming legends through
+          immersive, hands-on bootcamps that actually prepare you for the real world.
+        </p>
+        <div data-aos="fade-up" data-aos-delay="300">
+          <a href="#courses" class="button is-primary is-large mr-4">
+            <i class="fas fa-rocket mr-2"></i>
+            Start Your Journey
+          </a>
+          <a href="#about" class="button is-outlined is-white is-large">
+            <i class="fas fa-user-ninja mr-2"></i>
+            Meet Kingston
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="section has-background-light">
+    <div class="container">
+      <div class="columns is-multiline has-text-centered" data-aos="fade-up">
+        <div class="column is-4">
+          <div class="stat-card">
+            <div class="stat-number">3</div>
+            <div class="stat-label">Years Programming</div>
+          </div>
+        </div>
+        <div class="column is-4">
+          <div class="stat-card">
+            <div class="stat-number">12<sup>th</sup></div>
+            <div class="stat-label">Grade Level</div>
+          </div>
+        </div>
+        <div class="column is-4">
+          <div class="stat-card">
+            <div class="stat-number">FTC Robotics</div>
+            <div class="stat-label">Java Powered</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Kingston Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="columns is-vcentered">
+        <div class="column is-6" data-aos="fade-right">
+          <h2 class="title is-2">Meet the Legend: Kingston Morgan 🧙‍♂️</h2>
+          <div class="instructor-badge">
+            <i class="fas fa-crown mr-2"></i>
+            Lead Coding Instructor
+          </div>
+          <p class="is-size-5 mb-4">
+            Kingston isn’t just any coding instructor – he’s a programming virtuoso who's been crafting digital magic
+            for 3 years. Known as "Kingmode," he’s the dude who makes Python flow smooth and Java hit like a pro.
+          </p>
+          <p class="mb-4">
+            From leading Code.org classes to crushing FTC Robotics with Java skills, Kingston’s passion is contagious.
+            His motto? <i><strong>"Just Code Bruh"</strong></i>.
+          </p>
+          <p class="mb-4">
+            When not turning zeros into heroes, you’ll catch him vibing to his hit music or building the next cool web
+            project.
+            His students don’t just learn to code — they level up their problem-solving, engineering, and hustle.
+          </p>
+          <div class="tags">
+            <span class="tag is-primary is-medium">Python Sage</span>
+            <span class="tag is-info is-medium">Java Master</span>
+            <span class="tag is-success is-medium">Frontend Wizard</span>
+            <span class="tag is-warning is-medium">Code.org Champion</span>
+          </div>
+        </div>
+        <div class="column is-6" data-aos="fade-left">
+          <div class="box has-text-centered p-6">
+            <div class="is-size-1 mb-4">
+              <i class="fas fa-user-astronaut"
+                style="font-size: 8rem; background: linear-gradient(45deg, #667eea, #f093fb); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"></i>
+            </div>
+            <h3 class="title is-4">"The Greatest Of All Time"</h3>
+            <p class="subtitle">Kingston has a rare talent for making tough coding concepts feel like straight-up common
+              sense. His students don’t just memorize—they understand.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kingston's Arsenal (Skills) -->
+  <section id="skills" class="section has-background-light">
+    <div class="container has-text-centered">
+      <h2 class="title is-2" data-aos="fade-up">Kingston's Programming Arsenal</h2>
+      <p class="subtitle is-4" data-aos="fade-up" data-aos-delay="100">
+        Master these technologies under the guidance of a true coding legend
+      </p>
+
+      <div class="skills-grid" data-aos="fade-up" data-aos-delay="200">
+        <div class="skill-card">
+          <i class="fab fa-python"></i>
+          <h4>Python</h4>
+          <span class="skill-level">Expert</span>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-java"></i>
+          <h4>Java</h4>
+          <span class="skill-level">Expert</span>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-js-square"></i>
+          <h4>JavaScript</h4>
+          <span class="skill-level">Advanced</span>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-html5"></i>
+          <h4>HTML5</h4>
+          <span class="skill-level">Advanced</span>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-css3-alt"></i>
+          <h4>CSS3</h4>
+          <span class="skill-level">Advanced</span>
+        </div>
+      </div>
+
+      <div class="content mt-6" data-aos="fade-up">
+        <p class="is-size-5">
+          Kingston doesn't just know these technologies – he lives and breathes them. With over 1000+ hours of hands-on
+          coding experience and countless projects under his belt, he's the mentor who can guide you from "Hello World"
+          to "Holy cow, I built that!"
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="section has-background-light">
+    <div class="container">
+      <h2 class="title is-2 has-text-centered" data-aos="fade-up">Success Stories</h2>
+      <div class="columns is-multiline" data-aos="fade-up" data-aos-delay="100">
+        <div class="column is-4">
+          <div class="box">
+            <p>"Insert Testimonials Here"</p>
+            <p class="has-text-weight-semibold mt-4">– John Doe.</p>
+          </div>
+        </div>
+        <div class="column is-4">
+          <div class="box">
+            <p>"Insert Testimonials Here"</p>
+            <p class="has-text-weight-semibold mt-4">– Jane Doe.</p>
+          </div>
+        </div>
+        <div class="column is-4">
+          <div class="box">
+            <p>"Insert Testimonials Here"</p>
+            <p class="has-text-weight-semibold mt-4">– John Doe</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Course Offerings -->
+  <section id="courses" class="section">
+    <div class="container">
+      <h2 class="title is-2 has-text-centered" data-aos="fade-up">Classes Taught by Kingston</h2>
+      <p class="subtitle is-4 has-text-centered mb-6" data-aos="fade-up" data-aos-delay="100">
+        Hands-on classes focused on real skills Kingston masters every day.
+      </p>
+
+      <div class="columns is-multiline">
+        <div class="column is-4">
+          <div class="box feature-card" data-aos="zoom-in">
+            <i class="fab fa-python"></i>
+            <h3 class="title is-4">Python</h3>
+            <p>Kingston teaches beginner to advanced Python — think automation, data projects, and web basics. If you
+              wanna run with the big dogs, this is your track.</p>
+            <div class="tags mb-4">
+              <span class="tag">Beginner to Advanced</span>
+              <span class="tag">Project-Based</span>
+            </div>
+            <p><strong>What You'll Build:</strong> Simple web apps</p>
+          </div>
+        </div>
+        <div class="column is-4">
+          <div class="box feature-card" data-aos="zoom-in" data-aos-delay="100">
+            <i class="fab fa-java"></i>
+            <h3 class="title is-4">Java</h3>
+            <p>Kingston’s advanced Java classes cover complex object-oriented programming, GUIs, and backend basics —
+              college-level prep that actually makes sense.</p>
+            <div class="tags mb-4">
+              <span class="tag">Advanced</span>
+              <span class="tag">Career-Ready</span>
+            </div>
+            <p><strong>What You'll Build:</strong> Real-world Java projects</p>
+            </p>
+          </div>
+        </div>
+        <div class="column is-4">
+          <div class="box feature-card" data-aos="zoom-in" data-aos-delay="200">
+            <i class="fas fa-laptop-code"></i>
+            <h3 class="title is-4">Code.org Curriculum</h3>
+            <p>Kingston leads students through Code.org’s official courses with interactive projects designed to teach
+              foundational programming logic and problem-solving skills.</p>
+            <div class="tags mb-4">
+              <span class="tag">Self-Paced</span>
+              <span class="tag">Beginner Friendly</span>
+            </div>
+            <p><strong>What You'll Build:</strong> Games, App Development, and basic coding projects</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Enroll Section -->
+  <section id="signup" class="section has-background-light">
+    <div class="container">
+      <h2 class="title is-2 has-text-centered" data-aos="fade-up">Enroll Now</h2>
+      <p class="subtitle is-4 has-text-centered mb-6" data-aos="fade-up" data-aos-delay="100">
+        Ready to level up your skills? Fill out the form and join the coding fam 💻✨
+      </p>
+      <form id="signupForm" data-aos="fade-up" data-aos-delay="200">
+        <div class="columns is-centered">
+          <div class="column is-half">
+            <div class="field">
+              <label class="label" for="name">Name</label>
+              <div class="control">
+                <input class="input" type="text" id="name" placeholder="Your name" required />
+              </div>
+            </div>
+            <div class="field">
+              <label class="label" for="email">Email</label>
+              <div class="control">
+                <input class="input" type="email" id="email" placeholder="Your email" required />
+              </div>
+            </div>
+            <div class="field">
+              <label class="label" for="course">Choose a Course</label>
+              <div class="control">
+                <div class="select is-fullwidth">
+                  <select id="class-selection" required>
+                    <option value="">Select a course</option>
+                    <option value="Python Basics">Python</option>
+                    <option value="Code.org Fundamentals">Code.org</option>
+                    <option value="Advanced Java">Java</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="field">
+              <label class="label" for="question">Any Questions?</label>
+              <div class="control">
+                <input class="input" type="text" id="question" placeholder="Optional: ask us anything!" />
+              </div>
+            </div>
+            <div class="field">
+              <label class="label" for="message">Message</label>
+              <div class="control">
+                <textarea class="textarea" id="message" placeholder="Your message" rows="5" required></textarea>
+              </div>
+            </div>
+            <div class="field mt-5 has-text-centered">
+              <div class="control">
+                <button type="submit" class="button is-primary is-large">Send & Enroll</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Custom Footer -->
+  <footer class="custom-footer">
+    <div class="footer-container">
+      <p>&copy; 2025 Kingston's Coding Camp. All rights reserved.</p>
+      <div class="footer-socials">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="script.js"></script>
+</body>
+
+</html>
