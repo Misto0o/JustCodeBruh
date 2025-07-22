@@ -1,3 +1,8 @@
+// Kingmode's Coding Camp Website
+// Created by Kristian Cook
+// Date: 2025-07 - 22
+// Not for web display, just for flexing in the source file 😉
+
 document.addEventListener('DOMContentLoaded', () => {
   const burger = document.querySelector('.navbar-burger');
   const menu = document.getElementById(burger.dataset.target);
